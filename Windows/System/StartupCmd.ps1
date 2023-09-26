@@ -1,0 +1,1 @@
+cd \Users\deklan.gentile\AppData\Roaming\Microsoft\Windows\'Start Menu'\Programs\Startup
