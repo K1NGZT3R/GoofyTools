@@ -1,0 +1,1 @@
+Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device Parameters Flip FlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath Flip FlopWheel 0 }
