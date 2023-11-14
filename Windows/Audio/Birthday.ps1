@@ -1,4 +1,3 @@
-$WScript = New-Object -com wscript.shell; 1..50 | % { $WScript.SendKeys([char]175) }; 
 $BeepList = @(
 @{ Pitch = 1059.274; Length = 300; };
 @{ Pitch = 1059.274; Length = 200; };
